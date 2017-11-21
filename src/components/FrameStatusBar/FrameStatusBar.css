@@ -1,0 +1,7 @@
+.FrameStatusBar{
+  height: 44px;
+  font-family: monospace, sans-serif;
+  margin-left: 10px;
+  z-index: 5000;
+  padding-right: -20px;
+}

@@ -1,0 +1,11 @@
+.AppBottombar{
+  align-items: flex-start;
+  background: #EE7785;
+}
+
+
+.AppBottombar img {
+  margin-top: 10px;
+  width: 30px;
+  height: 30px;
+}

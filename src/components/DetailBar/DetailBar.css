@@ -1,0 +1,16 @@
+.DetailBar{
+  top: 0px;
+  z-index: 800;
+  animation: down .6s;
+}
+
+@keyframes down {
+  0% {
+    transform: translateY(-200%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}

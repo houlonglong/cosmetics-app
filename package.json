@@ -11,14 +11,17 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "styleguide": "styleguidist server",
+    "styleguide:build": "styleguidist build"
   },
   "cca": {
     "type": "class",
     "path": "./src/components"
   },
   "devDependencies": {
-    "eslint-config-react-app": "^2.0.1"
+    "eslint-config-react-app": "^2.0.1",
+    "react-styleguidist": "^6.0.33"
   },
   "eslintConfig": {
     "extends": "react-app"
